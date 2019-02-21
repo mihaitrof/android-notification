@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         notificationText = "New notification! Yehe!";
         notificationTitle = "Hello world!";
 
-        notificationBuilder = new NotificationCompat.Builder(this, "some channe")
+        notificationBuilder = new NotificationCompat.Builder(this, "some channel")
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentTitle(notificationTitle)
                 .setContentText(notificationText)
